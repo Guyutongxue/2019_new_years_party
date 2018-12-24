@@ -1,3 +1,8 @@
 text
+<<<<<<< HEAD
 谷雨同学在此
 不，是个菜鸡
+=======
+I am HUGUANGXIN.
+So I'm HUGE!!!
+>>>>>>> 672bb6b92365121ea97f8aa54a5d718aa2b545e7
