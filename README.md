@@ -50,7 +50,7 @@ Sub UpdateData()
 End Sub
 ```
 
-### 针对睡眠的一些更改
+#### 针对睡眠的一些更改
 
 将计时器实现的睡眠改为调用 Windows API 实现的睡眠。
 
