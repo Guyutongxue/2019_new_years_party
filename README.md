@@ -65,7 +65,7 @@ Sub Sleep(millisecond As Integer)
 End Sub
 ```
 
-### 针对 UTF-8 编码文件读取的一些更改
+#### 针对 UTF-8 编码文件读取的一些更改
 
 去年采用网上调用系统API读取的代码，今年改用 ADODB.Stream 组件直接读取，减少了代码量。
 
@@ -83,7 +83,7 @@ Function ReadFromTextFile(filepath As String)
 End Function
 ```
 
-### 针对等待 wget64.exe 运行的一些更改
+#### 针对等待 wget64.exe 运行的一些更改
 
 将数据下载到本地需要一定的时间，去年的系统中，采用了全部等待 2s 再执行后续操作的策略。今年改用查询 WMI 服务循环监测 PowerShell.exe 进程来决定何时继续执行。下附全部核心代码。
 
